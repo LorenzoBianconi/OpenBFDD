@@ -11,6 +11,8 @@
 #include <errno.h>
 #include <string.h>
 #include <unistd.h>
+#include <time.h>
+#include <pthread.h>
 
 const size_t Logger::MaxMessageLen;
 
